@@ -1,2 +1,2 @@
 # Investments_amp
-Investment Application created using ReactJS and AWS amplify
+Investment Application that calculates compound interest. This was created using ReactJS and is hosted using AWS amplify
