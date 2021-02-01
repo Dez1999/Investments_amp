@@ -9,6 +9,7 @@ import FormBox from './Components/FormBox';
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
+    <calculateComponent/>
     <FormBox/>
   </React.StrictMode>,
   document.getElementById('root')
