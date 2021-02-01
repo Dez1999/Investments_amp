@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Header';
 import reportWebVitals from './reportWebVitals';
+import FormBox from './Components/FormBox';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Coding Review Using AWS Development</h1>
+    <Header/>
+    <FormBox/>
   </React.StrictMode>,
   document.getElementById('root')
 );
