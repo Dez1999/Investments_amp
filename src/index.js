@@ -4,13 +4,17 @@ import './index.css';
 import Header from './Header';
 import reportWebVitals from './reportWebVitals';
 import FormBox from './Components/FormBox';
+import NewsFeed from './Components/NewsFeed';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Header/>
-    <calculateComponent/>
-    <FormBox/>
+    <div className='rowC'>
+        <FormBox/>
+        <NewsFeed/>
+      </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
